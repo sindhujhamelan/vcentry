@@ -1,0 +1,124 @@
+.heading{
+    
+    color: rgb(19, 59, 145);
+    font-weight: 900;
+    font-family: cursive;
+  }
+  
+  .sub-heading{
+    color: rgb(165, 136, 40);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .image, .image1{
+    width: 200px;
+  }
+
+  h1{
+      color:darkred;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .label{
+    font-size: 20px;
+      display: inline-block;
+      width: 200px;
+  }
+  
+  .input{
+    width: 250px;
+    font-size: 20px;
+  }
+  
+  .space-bottom{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icon{
+    margin-left: 18px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  button{
+    width:150px;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(117, 193, 255);
+    font-weight: bold;
+    font-family: cursive;
+    font-size:15px;
+  }
+
+  .input-border-red{
+    border: 3px rgb(12, 3, 148) solid;
+  }
+
+  .align-flex{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header{
+    border: 3px rgb(12, 3, 148) solid;
+    height: 10vh;
+  }
+  
+  .body{
+    border: 2px solid;
+    height: 86vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sidebar{
+    border: 3px rgb(12, 3, 148) solid;
+    width: 25%;
+    display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  
+  .content{
+    border: 3px rgb(12, 3, 148) solid;
+    width: 75%;
+  }
+  
+  .button{
+    text-decoration: none;
+      /* border: 2px solid; */
+      background-color: #f8c22c;
+      color: rgb(0, 0, 0);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      }
+      
+
+      #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
